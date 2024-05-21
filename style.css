@@ -1,0 +1,65 @@
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 50%;
+}
+#logo1 {
+    margin: auto;
+    background-color: #D9B9A7;
+    border-radius: 10px;
+}
+body {
+    background-color: #402F21;
+}
+#nav {
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    background-color: #D9B9A7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#vid{
+    display:block ;
+    margin-left: 450px;
+    margin-right: auto;
+
+}
+a:link{
+    text-decoration: none;
+    color:#735236;
+}
+a:hover{
+    color:#A68263;
+}
+#us{
+    padding: 1px;
+    color: #735236;
+    background-color: #D9B9A7;
+    border-radius: 10px;
+
+}
+#team{
+    padding: 1px;
+    color: #735236;
+    background-color: #D9B9A7;
+    border-radius: 10px;
+}
+.btn{
+    background-color: #D9B9A7;
+    border-radius: 4px;
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 100px;
+}
+#clock{
+    padding: 1px;
+    width: 100px;
+    height: 70px;
+    color: #735236;
+    background-color: #D9B9A7;
+    border-radius: 10px;
+}
+

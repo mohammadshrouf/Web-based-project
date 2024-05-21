@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo1">
+        <img id="logo" src="logo.png" width="150px">
+    </div>
+    <br>
+    <div id="nav">
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Services.html">Our services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Reviews.html">Reviews</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Resources.html">Rescources</a>
+            </li>
+        </ul>
+    </div>
+    <script>
+        function displayDateTime() {
+            var d = new Date();
+            var dateStr = d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear();
+            var timeStr = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+            document.getElementById("date").innerHTML = dateStr + " " + timeStr;
+        }
+
+        window.onload = displayDateTime;
+    </script>
+    <div id="clock">
+        <p id="date"></p>
+
+    </div>
+    <br>
+    <div id="vid">
+        <video src="WhatsApp Video 2024-04-16 at 8.46.53 AM.mp4" autoplay controls width="400px" height="500px"></video>
+    </div>
+</body>
+</html>
